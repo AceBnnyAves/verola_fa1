@@ -1,0 +1,51 @@
+@font-face {
+	font-family: TheFont;
+	src: url('additional_files/Font.otf');
+}
+body {
+	background-image: url('additional_files/bg.jpg');
+	margin-left: 100px;
+	margin-top: 50px;
+}
+p {
+	font-family: TheFont;
+}
+button {
+	font-family: TheFont;
+	font-size: 18px;
+}
+span {
+	font-family: TheFont;
+	text-decoration: underline;
+}
+#paper {
+	background-color: white;
+	height: 297px;
+	width: 210px;
+	padding: 10px;
+	display: none;
+}
+#button {
+	display: none;
+	position: relative;
+	left: 290px;
+	top: 250px;
+}
+#engage {
+	display: block;
+	position: relative;
+	left: 290px;
+	top: 250px;
+}
+#thide {
+	display: block;
+}
+#whide {
+	display: block;
+}
+#nhide {
+	display: block;
+}
+#hidden {
+	display: none;
+}
